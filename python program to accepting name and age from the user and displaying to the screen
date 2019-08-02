@@ -1,0 +1,20 @@
+#python code for accepting name and age from the user and getting the year that at what age the user will be 100years old.
+
+
+#accepting values from the user
+name=input("Enter your name:")
+age=input("Enter your age:")
+
+#printing on screen
+print('Name:',name)
+print('age:',age)
+
+#calculating the year
+age1=int(age)
+c=100-age1
+
+#set current year
+result=2019+c
+
+#printing the final result
+print(name,'will be 100 years old in',result)
