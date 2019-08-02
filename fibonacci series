@@ -1,0 +1,17 @@
+#accepting lenth from the user
+length=int(input("Enter the length for the fibonacci series: "))
+
+#setting initial values
+num1=0
+num2=1
+num3=0
+
+#loop for iterating
+for a in range(0,length):
+    num3=num3+num1
+    num1=num2
+    num2=num3
+    
+    
+#printing final result
+    print(num3)
