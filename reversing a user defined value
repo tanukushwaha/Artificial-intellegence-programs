@@ -1,0 +1,14 @@
+#function
+def isreverse(n):
+    temp=n
+    rev=0
+    while temp!=0:
+        digit=temp%10
+        rev=rev*10+digit
+        temp=temp//10
+    return rev
+
+#main
+num=int(input("enter a number to get reverse of a number: " ))
+print("Original value is: ",num)
+print('reverse of the value is: ',isreverse(num))
