@@ -1,0 +1,44 @@
+
+#program to check the number is armstrong or not and to check the number is palindrome or not
+def isarm(n):
+    sum=0
+    temp=n
+    d=0
+    number=str(n)
+    for i in number:
+        if i.isdigit:
+            d=d+1
+    while temp!=0:
+            digit=temp%10
+            sum=sum+(digit**d)
+            temp=temp//10
+    if n==sum:
+        print(n,' is an armstrong number' )
+    else:
+        print(n,' is not an armstrong number')
+    return isarm
+def ispalin(n):
+    sum=0
+    temp=n 
+    
+    rev=0
+    while temp!=0:
+            digit=temp%10
+            rev=rev*10+digit
+            temp=temp//10
+    if n==rev:
+        print(n,' is palindrome number')
+    else:
+        print(n,' is not palindrome')
+    return ispalin
+num=int(input("enter a number to check if number is armstrong or not and to check no is plindrome or not: " ))
+isarm(num)
+ispalin(num)
+
+
+
+
+
+
+              
+        
