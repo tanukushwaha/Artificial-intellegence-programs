@@ -1,9 +1,0 @@
-#accepting number from the user
-num=input("Enter number to whether entered number is even or odd: ")
-number=int(num)
-
-#checking whether entered number is even or odd 
-if((number%2)==0):
-    print(number,"is even number")
-else:
-    print(number,"is odd number")
