@@ -10,5 +10,5 @@ list1=[]
 while(list1<str):
     list1+=1
     print(list)
-print("Length of the entere string is: ",len(str))
+print("Length of the entered string is: ",len(str))
 print("Length of the entered list is:",islist(str))
