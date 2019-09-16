@@ -1,0 +1,7 @@
+This is a text file.You are appending text to the text file.
+There are total 5 theory subjects and 5 practical based subjects in BscIT stream.
+Python programminig
+Computer networks.
+Data structure
+Database Mangement system.
+Applied mathematics.

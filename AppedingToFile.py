@@ -1,0 +1,8 @@
+file_name=input("Enter file name: ")
+file=open(file_name,"a")
+text=input("Enter text to append text in the file: ")
+file.write(text)
+file.close()
+f1=open(file_name)
+print(f1.read())
+f1.close()
